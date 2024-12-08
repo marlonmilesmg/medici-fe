@@ -13,3 +13,16 @@
   flex: 1;
   margin: 0 10px;
 }
+
+.p-button-success {
+  margin-top: 20px;
+}
+
+.p-button-info {
+  margin-top: 20px;
+}
+
+.p-button-warning {
+  margin-top: 20px;
+}
+

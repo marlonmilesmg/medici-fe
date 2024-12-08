@@ -1,8 +1,8 @@
 import axios from "axios";
 
-const BASE_URL = "http://localhost:8080/api/users";
+const BASE_URL = "http://user-registration-backend.default.svc.cluster.local:8080/api/users";
 
-export const createUser = (user) => axios.post(`${BASE_URL}/`, user);
+export const createUser = (user) => axios.post(`${BASE_URL}`, user);
 
 export const getUser = (id) => axios.get(`${BASE_URL}/${id}`);
 

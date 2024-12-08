@@ -62,7 +62,7 @@ const UserForm = () => {
                             required
                         />
                     </div>
-                    <Button label="Register" icon="pi pi-user-plus" className="p-button-success p-mt-3" type="submit" />
+                    <Button label="Register" icon="pi pi-user-plus" className="p-button-success p-mt-4" type="submit" />
                 </form>
                 {message && <p className="p-mt-3">{message}</p>}
                 <div className="button-group">
