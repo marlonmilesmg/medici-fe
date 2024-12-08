@@ -5,6 +5,13 @@ import UserForm from "./components/UserForm";
 import UserInfo from "./components/UserInfo";
 import UserUpdateForm from "./components/UserUpdateForm";
 
+import "primereact/resources/themes/lara-light-blue/theme.css";
+import "primereact/resources/primereact.min.css";
+import "primeicons/primeicons.css";
+import "primeflex/primeflex.css";
+import "./index.css";
+
+
 const App = () => {
     return (
         <Router>
